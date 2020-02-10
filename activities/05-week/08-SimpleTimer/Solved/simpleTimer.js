@@ -26,7 +26,7 @@ function tenSeconds() {
   // in the element with an id of time-left add an h2 saying About 5 Seconds Left!
   // console log 5 seconds left
   $("#time-left").append("<h2>About 5 Seconds Left!</h2>");
-  console.log("5 seconds left");
+  console.log("5 seconds left");  
 }
 
 function timeUp() {

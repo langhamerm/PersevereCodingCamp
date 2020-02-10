@@ -35,7 +35,7 @@ function buildQueryURL() {
 
   // Logging the URL so we have access to it for troubleshooting
   console.log("---------------\nURL: " + queryURL + "\n---------------");
-  console.log(queryURL + $.param(queryParams));
+  console.log(queryURL + $.   (queryParams));
   return queryURL + $.param(queryParams);
 }
 
@@ -62,7 +62,7 @@ function updatePage(NYTData) {
 
     // Create the  list group to contain the articles and add the article content for each
     var $articleList = $("<ul>");
-    $articleList.addClass("list-group");
+    $articleList.addClass("list-gr oup");
 
     // Add the newly created element to the DOM
     $("#article-section").append($articleList);

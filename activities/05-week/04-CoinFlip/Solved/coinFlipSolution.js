@@ -8,7 +8,7 @@ function flipThatCoin(result) {
   // Declare and initialize a variable named randomNumber to either 0 or 1. Make it random.
   var randomNumber = Math.floor(Math.random() * 2);
 
-  //  STEP TWO:
+  //  STEP TWO: 
   //  If randomNumber is equal to zero then:
   //  Find the div with an id of coin-image.
   //  Replace it's html with an img tag containing this image:
